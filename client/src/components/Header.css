@@ -1,0 +1,59 @@
+/* Header.css */
+
+.navbar-custom {
+    /* background: transparent !important; Navbar background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+
+  .navbar.blurred {
+    backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+    background-color: rgba(255,241,220, 0.5); /* Adjust background color and opacity as needed */
+  }
+  
+  .navbar.colored {
+    background-color: rgb(255, 255, 255);
+  }
+  .navbar-brand {
+    color: #000000; /* Navbar brand color */
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .navbar-brand:hover {
+    color: #000000; /* Hover color for navbar brand */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Align navbar items to the right */
+  }
+  
+  .navbarnav-link {
+    color: #000000; /* Link color */
+    font-size: 1.1rem; /* Font size for links */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-right: 5px; /* Space between links */
+    padding: 10px 15px; /* Padding inside links */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease; /* Smooth transition */
+    text-align: center; /* Center text */
+    display: inline-block; /* Ensure inline display */
+    min-width: 100px; /* Minimum width for uniform button sizes */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .navbarnav-link:hover {
+    color: #000000; /* Hover text color */
+    background-color: #F95C19; /* Hover background color */
+    padding: 12px 18px; /* Increase padding on hover */
+  }
+  
+  .navbarnav-link.active {
+    text-decoration: underline; /* Underline the active link */
+    color: #F95C19; /* Active link text color */
+  }

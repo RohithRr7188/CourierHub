@@ -1,0 +1,135 @@
+/* Home.css */
+
+.containerhome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 520px;
+  }
+  
+  .content-container {
+    flex: 0.7;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .welcome-message {
+    margin-bottom: 20px;
+  }
+  
+  .content-container span {
+    margin: 10px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+  }
+  
+  .content-container p {
+    margin: 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    font-size: large;
+  }
+  
+  .content-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f95c19;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .content-container a:hover {
+    background-color: #d44e15;
+  }
+  
+  .trusted-provider {
+    padding-bottom: 1%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: "Raleway", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .trusted-provider1 {
+    padding-top: 0%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card-span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    width: 450px;
+   
+  }
+  
+  .card-text {
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+  }
+  
+  .fs--1 {
+    font-size: 0.875rem;
+  }
+  
+  .fs--2 {
+    font-size: 0.75rem;
+  }
+  
+  .fw-medium {
+    font-weight: 500;
+  }
+  
+  .fw-normal {
+    font-weight: 400;
+  }
+  
+  img.img-fluid {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators li {
+    background-color: #f95c19;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #d44e15;
+  }
+  
+  .quote-icon {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 350px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .text-primary-c1 {
+    color: #f95c19;
+  }
+  
